@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit; */
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	html {
@@ -84,8 +85,8 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
+		background-image: url("./images/maze2.jpg");
+		background-repeat: repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
@@ -121,7 +122,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #3a3939;
+		color: WHITE;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -130,6 +131,7 @@ input, select, textarea {
 		font-weight: 400;
 		text-transform: uppercase;
 		line-height: 1.75em;
+		color: white;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -160,7 +162,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: white;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -206,6 +208,7 @@ input, select, textarea {
 			display: block;
 			margin: 0.5em 0 0 0;
 			padding: 0 0 1.5em 0;
+			color: white;
 		}
 
 	footer {
@@ -1627,7 +1630,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #f1f1f1;
+		background: rgba(0, 0, 0, 0.5);
+		border: white;
+		border-style: solid;
+		border-width: 3px;
 		width: 100%;
 		padding: 0.75em;
 	}
@@ -1637,7 +1643,8 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background-color: #f8f8f8;
+			background-color: black;
+			color: white;
 		}
 
 	form input[type="text"],
@@ -1747,8 +1754,8 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
-		color: #fff;
+		background:white;
+		color: black;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
 		text-decoration: none;
@@ -1764,7 +1771,11 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background:none;
+			border: white;
+			border-width: 3px;
+			border-style: solid;
+			color: white;
 		}
 
 		input[type="button"].style2,
@@ -1943,7 +1954,7 @@ input, select, textarea {
 				}
 
 		.box.style3 {
-			background: #fff;
+			background-color:rgba(0, 0, 0, 0.541);
 			padding: 3em;
 		}
 
@@ -2089,14 +2100,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background-color: rgb(0, 0, 0, .5);
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: black;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2124,7 +2135,7 @@ input, select, textarea {
 		}
 
 			#banner a:hover {
-				border-bottom-color: rgba(255, 255, 255, 0);
+				border-bottom-color: white;
 			}
 
 /* Footer */
