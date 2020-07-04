@@ -1852,7 +1852,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background-color:rgba(0, 0, 0, 0.541);
 			padding: 3em;
 		}
 
@@ -1909,7 +1909,7 @@ input, select, textarea {
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background-color:rgba(0, 0, 0, 0.541);
 				padding: 2em 3em 2em 3em;
 				margin: 0;
 			}
