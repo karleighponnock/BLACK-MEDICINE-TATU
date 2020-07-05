@@ -198,6 +198,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
+		color: white;
 	}
 
 	header {
@@ -1862,7 +1863,7 @@ input, select, textarea {
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				
 				overflow: hidden;
 			}
 
@@ -1892,6 +1893,8 @@ input, select, textarea {
 
 			.box.style1.left .image {
 				right: 0;
+				width: 61%;
+				opacity: 80%;
 			}
 
 				.box.style1.left .image img {
@@ -2165,7 +2168,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #969696a1;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2362,7 +2365,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
+				background-color:rgba(0, 0, 0, 0.555);
 				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
