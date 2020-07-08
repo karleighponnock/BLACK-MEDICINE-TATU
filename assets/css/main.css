@@ -1492,8 +1492,9 @@ input, select, textarea {
 	}
 
 		.image img {
-			display: block;
+			display: inline-block;
 			width: 100%;
+		
 		}
 
 		.image.featured {
