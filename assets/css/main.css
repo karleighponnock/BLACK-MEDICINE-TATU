@@ -1492,7 +1492,7 @@ input, select, textarea {
 	}
 
 		.image img {
-			display: block;
+			display: inline-block;
 			width: 100%;
 		
 		}
@@ -1506,6 +1506,10 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+		}
+
+		img.armsportrait{
+			padding-left:170px;
 		}
 
 		.image.left {
