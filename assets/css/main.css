@@ -7,6 +7,58 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* new glow effect
+.glow {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+} 
+/**/
+h2{
+	font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+	  color: black;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 30px #9c0101, 0 0 40px #a00202, 0 0 50px #e60073, 0 0 60px #5c0000, 0 0 70px #7a0000;
+  }
+  
+  to {
+	color: black;
+    text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px #9c0101, 0 0 40px #ad0000, 0 0 50px #ad0101, 0 0 60px #910000, 0 0 70px #ff0000, 0 0 80px #7e0000;
+  }
+}
+
+
+.glow{
+	text-shadow: 0px 0px 30px white;
+	text-shadow: 0px 0px 90px rgb(255, 0, 0);
+}
+
+.img-glow:hover{
+	box-shadow: 0px 0px 37px rgba(150, 0, 0, 0.527);
+} 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -69,7 +121,7 @@ input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
-	appearance: none;
+
 }
 
 
@@ -122,7 +174,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: WHITE;
+		color: rgb(255, 255, 255);
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -165,7 +217,14 @@ input, select, textarea {
 		color: white;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		color: rgb(121, 2, 2);
+		font-weight: bold;
+	}
+
+	a:hover{
+		text-shadow:0 0 5px rgb(255, 0, 0);
+		text-shadow: 0 0 30px rgb(255, 255, 255);
+		color: black;
 	}
 
 		a:hover {
@@ -1650,7 +1709,8 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background-color: black;
-			color: white;
+			color: rgb(255, 0, 0);
+			text-shadow: 0px 0px 10px rgb(189, 46, 46);
 		}
 
 	form input[type="text"],
@@ -1777,11 +1837,12 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background:none;
-			border: white;
+			background:rgba(99, 1, 1, 0.514);
+			border: rgb(255, 255, 255);
 			border-width: 3px;
 			border-style: solid;
-			color: white;
+			color: rgb(255, 255, 255);
+
 		}
 
 		input[type="button"].style2,
@@ -1799,8 +1860,8 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				background: rgba(255, 255, 255, 0.1);
-				color: #fff !important;
+				background: rgba(255, 0, 0, 0.151);
+				color: rgb(255, 255, 255) !important;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
 			}
 
@@ -1819,7 +1880,9 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background: rgba(58, 57, 57, 0.025);
+				background: rgba(136, 0, 0, 0.603);
+				
+				
 			}
 
 /* Box */
@@ -1917,7 +1980,6 @@ input, select, textarea {
 
 			.box.style2 header {
 				display: inline-block;
-				background-color:rgba(0, 0, 0, 0.541);
 				padding: 2em 3em 2em 3em;
 				margin: 0;
 			}
@@ -1961,8 +2023,8 @@ input, select, textarea {
 					padding: 20px;
 				}
 
+				/* ////contact/booking */
 		.box.style3 {
-			background-color:rgba(0, 0, 0, 0.541);
 			padding: 3em;
 		}
 
@@ -2116,7 +2178,7 @@ input, select, textarea {
 
 		#banner .button {
 			color: black;
-			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+			text-shadow: 0 0 2px rgba(173, 0, 0, 0.25);
 		}
 
 		#banner header {
@@ -2174,8 +2236,8 @@ input, select, textarea {
 
 			#footer a:hover {
 				color: #969696a1;
-				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
-				border-bottom-color: rgba(53, 184, 143, 0.5);
+				text-shadow: 0 0 0.5px rgba(141, 0, 0, 0.651);
+				border-bottom-color: rgba(255, 0, 0, 0.5);
 			}
 
 		#footer .icons {
